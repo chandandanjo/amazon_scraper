@@ -85,4 +85,4 @@ obj = amazonScraper(PATH)
 
 start_time = time.time()
 obj.main()
-print(" %s seconds" % timedelta(seconds = (time.time() - start_time)))
+print(f" {timedelta(seconds = (time.time() - start_time))} (Hours : Minutes: Seconds)")
